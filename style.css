@@ -27,18 +27,19 @@ color: white;
 padding: 20px;
 text-align: justify;
 }
-.video-container {
-    width: 100%;
-    height: 100vh; /* full screen height */
-    overflow: hidden;
-    background: black;
+.full-image {
+  width: 100%;
+  height: 100vh; /* full screen height */
+  overflow: hidden;
 }
 
-.video-container video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* VERY IMPORTANT */
+.full-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* makes image fill nicely without distortion */
 }
+
+
 .service{
     background-color: #c9a327d6;
     color: #000;
