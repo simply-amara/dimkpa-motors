@@ -31,6 +31,7 @@ text-align: justify;
     width: 100%;
     height: 100vh; /* full screen height */
     overflow: hidden;
+    background: black;
 }
 
 .video-container video {
