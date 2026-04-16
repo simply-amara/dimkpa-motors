@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* body*/
+.body{
+    background-color: black;
+}
+
+/* navbar */
+.navbar{
+background-color: #c9a327d6;
+}
+/* carousel caption*/
+.carousel-caption{
+color: black;
+}
+/* about*/
+.about{
+    color: #c9a327d6;
+    text-align: center;
+    margin: 10px;
+}
+/* writing*/
+.body2{ 
+color: white;
+padding: 20px;
+text-align: justify;
+}
+.video-container {
+    width: 100%;
+    height: 100vh; /* full screen height */
+    overflow: hidden;
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* VERY IMPORTANT */
+}
+.service{
+    background-color: #c9a327d6;
+    color: #000;
+    display: flex;
+  justify-content: center; /* horizontal */
+ margin: 20;
+
+}
+.card{
+    background-color: #c9a327d6;
+    margin: 30px;
+    
+    object-fit: cover;
+
+}
+.card img{
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+.text-center{
+    color: white;
+}
+.card-text{
+
+    text-align: center;
+}
+
+
+.footer {
+  background-color: #c9a327d6;
+  color: black;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.footer h3 {
+  margin-bottom: 5px;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.socials {
+  margin: 10px 0;
+}
+
+.socials a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.socials a:hover {
+  text-decoration: underline;
+}
+
+.copy {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
